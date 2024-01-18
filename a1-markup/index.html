@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="Photo album example for Web Tech Course">
+    <meta name="author" content="Gulben Sarici">
+    <link rel="stylesheet" href="style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script src="script.js" async></script>
+    <title>Photo Album</title>
+</head>
+
+<body>
+
+<!--nav section-->
+<div class="nav">
+    <nav>
+        <a href="#firstsection">About Us</a> |
+        <a href="#secondsection">Lists</a> |
+        <a href="#thirdsection">Photo Table</a> |
+        <a href="#fourthsection">Table-2</a>
+    </nav>
+</div>
+
+<!--First Section-->
+<section class="preference" id="firstsection">
+    <h1>Welcome to Amazing Photo Album for Harry Potter</h1>
+    <div id="pharagraph">
+        <h2>Photo Album is a place where you can see amazing Harry Potter Movies's photos</h2>
+        <p> <img src="https://funmauj.b-cdn.net/test/430741.jpg" alt="harry2"> 
+          Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).
+           </p>
+            <pre>After this dummy text, here is an example of em; <em>dummy text</em>, after that we have strong; <strong>dummy text</strong>
+            last ve have pre; it is demonstrated as the this part and these are all the requirements I have in appendix 1.
+            This web page is being created by <abbr title="Gulben Sarici">GS</abbr> for Web Tech Course.</pre>
+    </div>
+</section>
+
+<!--Second Section-->
+<section id="secondsection">
+    <h2>Why You Should Choose Us</h2>
+    <div class="row">
+        <div class="card-body" >
+            <h3 class="card-title">Our Services</h3>
+            <ul id="first-list">
+                <li>Printing photos</li>
+                <li>Fixing photo problems</li>
+                <li>Excellent Customer Service</li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title">Explanations</h3>
+            <dl id="second-list">
+                <dt>Image:</dt>
+                <dd>Photos that selling online</dd>
+                <dt>Description:</dt>
+                <dd>Detail about photo</dd>
+            </dl>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title">Our Servcies</h3>
+            <ol id="third-list">
+                <li>Repairing Hard photos</li>
+                <li>Fixing Photo Bugs</li>
+                <li>Excellent Customer Service</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<figure  id="figcaption">
+    <img src="https://static.posters.cz/image/750/harry-potter-i103891.jpg" alt="HarryBigImage" id="HarryImage">
+    <figcaption>Harry Potter</figcaption>
+</figure>
+
+
+<!--Third Section-->
+<section id="thirdsection" class="photo-table">
+    <h2>Photo Table</h2>
+    <table>
+        <caption>Best Photos</caption>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Movie</th>
+                <th>Year</th>
+                <th>Genre</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://www.hdfilmcehennemi.de/uploads/poster/hd-harry-potter-ve-felsefe-tasi-film-izle.jpg" alt="Harry1"></td>
+                <td class="movieName">Harry Potter and the Philosopher's Stone</td>
+                <td class = "year"> 2001 </td>
+                <td class="genreDetails">fantasy film, highest-grossing film of 2001, J. K. Rowling</td>
+                <td data-label="ss">  Its story follows Harry's first year at Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous wizard and begins his formal wizarding education. </td>
+            </tr>
+            <tr>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg" alt="Harry2"></td>
+                <td class="movieName">Harry Potter and the Chamber of Secrets</td>
+                <td class = "yearTable">2002</td>
+                <td class="genreTable"> the second-highest-grossing film of 2002, 2000s fantasy films</td>
+                <td>The story follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, where the Heir of Salazar Slytherin opens the Chamber of Secrets, unleashing a monster that petrifies the school's students.</td>
+            </tr>
+            <tr>
+                <td><img src="https://static.wikia.nocookie.net/international-entertainment-project/images/f/fd/Harry_Potter_and_the_Prisoner_of_Azkaban_poster.jpg" alt="harry3"></td>
+                <td class="movieName">Harry Potter and the Prisoner of Azkaban</td>
+                <td class = "yearTable">2004</td>
+                <td class="genreTable">British mystery films,2004 films </td>
+                <td> The film follows Harry's third year at Hogwarts and his quest to uncover the truth about his past, including the connection recently-escaped Azkaban prisoner Sirius Black has to Harry and his deceased parents. </td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/id/0/04/Poster_film_Harry_Potter_and_The_Goblet_of_Fire_%282005%29.jpeg" alt="Harry4"></td>
+                <td class="movieName">Harry Potter and the Goblet of Fire</td>
+                <td class = "yearTable">2005</td>
+                <td class="genreTable">2005 fantasy films, Harry Potter, Films about dragons</td>
+                <td>Its story follows Harry's fourth year at Hogwarts as he is chosen by the Goblet of Fire to compete in the Triwizard Tournament.</td>
+        
+            </tr>
+          <tr>
+            <td><img src="https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg" alt="Harry5"></td>
+                <td class="movieName">Harry Potter and the Order of the Phoenix</td>
+                <td class="yearTable"> 2007 </td>
+                <td class="genreTable">American fantasy adventure films, Teen adventure films, Films shot in Buckinghamshire</td>
+                <td> Its story follows Harry's fifth year at Hogwarts School of Witchcraft and Wizardry as the Ministry of Magic is in denial of Lord Voldemort's return.</td>
+            </tr>
+          <tr>
+            <td><img src="https://images.pathe-thuis.nl/15302_450x640.jpg" alt="Harry6"></td>
+                <td class="movieName">Harry Potter and the Half-Blood Prince </td>
+                <td class = "yearTable"> 2009 </td>
+                <td class="genreTable">Harry Potter film series, 2009 fantasy films, 2009 3D films</td>
+                <td>The story follows Harry's sixth year at Hogwarts as he receives a mysterious textbook, falls in love, and attempts to retrieve a memory that holds the key to Lord Voldemort's downfall.</td>
+            </tr>
+          <tr>
+             <td><img src="https://images.pathe-thuis.nl/15306_450x640.jpg" alt="Harry71"></td>
+                <td class="movieName">Harry Potter and the Deathly Hallows 1</td>
+                <td class = "yearTable"> 2010 </td>
+                <td class="genreTable">Films produced by J. K. Rowling, 2010 fantasy films </td>
+                <td>The story follows Harry Potter, who has been asked by Dumbledore to find and destroy Lord Voldemort's secret to immortality – the Horcruxes.</td>
+          </tr>
+          <tr><td><img src="https://www.large.nl/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dwad816d84/images/4/8/8/7/488758a.jpg?sfrm=png" alt="Harry72"></td>
+                <td class="movieName"> Harry Potter and the Deathly Hallows 2</td>
+                <td class = "yearTable">2011</td>
+                <td class="genreTable">2011s 3Dfilms, Harry Potter Movies, BAFTA winner films </td>
+                <td>The story concludes Harry Potter's quest to find and destroy Lord Voldemort's Horcruxes in order to stop him once and for all.</td> </tr>
+            
+        </tbody>
+    </table>
+<form action = "https://webtech.labs.vu.nl/api24/3d0c8497" method="post"  class="form-class">
+        <input type="url" id="image" name="image" placeholder="image URL" class="input-class" required>
+        <input type="text" id="movieName" name="movie" placeholder="movieName" class="input-class" required>
+        <input type="text" id="alt" name="alt" placeholder="alt" class="input-class" required>
+        <input type="text" id="tags" name="tags" placeholder="tags" class="input-class" required>
+        <input type="text" id="description" name="description" placeholder="description" class="input-class" required><br>
+        <input type="submit" name="submit" value="Add Item" class="button-class" id="submitButton">
+        <input type="reset" id="reset" name="reset" value="reset" class="button-class">
+        <!-- <input type="button" id="getElemets" name="getDB" value="getDB" class="button-class"> -->
+    </form>
+</section>
+
+<!--Fourth Section-->
+
+<section id="fourthsection" class="movie-table">
+        <form class="form-class">
+            <input type="checkbox" class="input-class" required>
+            <label >Conditions and Terms</label>
+            <input type="checkbox" class="input-class">
+            <label >Subscribe Newsletter</label>
+            <input type="submit" name="submit" value="Add To Basket" class="button-class">
+        </form>
+    </section>
+
+    <div id="contact-list">
+        <h3>Contact Us</h3>
+        <ul>
+            <li>Phone</li>
+            <li>Mail</li>
+            <li>Address</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+<!--
+    This website is full compatible with Google Chrome
+    Safari, Firefox, and Microsoft Edge mostly support operations.
+    For example; Operations especially in the print section are not supported by firefox.
+    For Microsoft Edge print function, there is problem about background effects printing.
+    Most of the operations are not supported by internet explorer 9 or below.
+    Also for the different screen sizes, it adapts nicely, without problem.
+-->
