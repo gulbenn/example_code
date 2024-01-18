@@ -1,0 +1,370 @@
+/* General Css Part Start */
+body {
+    background-color: lightgrey;
+    border: 1px solid lightgrey ;
+    background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg");
+    background-repeat: repeat;
+  }
+  #img1{
+    float: center;
+    width: 400;
+    height: 800;  
+  }
+  #head {
+    color: #1e3153;
+    font-family: cursive;
+    font-size: 100px;
+    text-align: center;
+    -webkit-box-shadow: rgb(100 150 180) 25px 25px 25px; 
+    border-color:;
+    
+  }
+  /* First Section Start */
+  
+  h1{
+      color: rgb(20, 95, 210);
+      font-size: 50px; 
+      text-align: center;
+      text-transform: uppercase;
+  }
+  h1:hover{
+      text-decoration: underline;
+  }
+  /* First Section End */
+  /* Navigation Part Start*/
+  
+  .nav{
+    color: tomato;
+    background-color: tomato;
+    font-family: "helvatica";
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    padding: 20px 18px;
+    box-shadow: rgb(100 150 180) 25px 25px 10px;
+  }
+  
+   p {
+      font-family: "Helvatica", sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: normal;
+      font-variant: normal;
+      margin: 10px;
+      orphans: 1;
+      widows: inherit;
+      vertical-align: middle;
+  
+  }
+  /* Navigation Section End  */
+  
+  #pharagraph img{
+      height: 10em;
+      width: 10em;
+      float:left;
+  }
+  
+  
+  
+  
+  img{
+      width: 5em;
+      height: 5em;
+  }
+  
+  pre {
+      white-space: pre-wrap;
+  }
+  
+  a:visited{
+      color: rgb(233, 20, 55);
+  }
+  
+  a:active{
+      background-color: greenyellow;
+  }
+  
+  input:focus {
+      background-color: rgb(182, 182, 172);
+  }
+  
+  /* General Css Part End */
+  
+  
+  /* Pharagraph Section Start */
+  
+  
+  #pharagraph img{
+      height: 10em;
+      width: 10em;
+      float:left;
+  }
+  
+  /* Pharagraph Section End */
+   
+  /* Second Section Start */
+  
+  #secondsection h2{
+      color: #1e3153;
+      background-color: tomato;
+      font-size: 30px;
+      font-family: "helvatica";
+      font-variant: small-caps;
+      text-align: center;
+      box-shadow: rgb(100 150 180) 2px 2px 10px;
+      display: block;
+      padding: 20px 18px;
+  }
+  
+  #secondsection h3{
+      color: red;
+      font-size: 30px;
+  }
+  
+  .row{
+      display: flex;
+      background-color: #b0d1ff;
+      border-radius: 10px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+      align-content: space-between;
+      margin-top: 1em;
+      margin-bottom: 1em;
+  }
+  
+  .card-body{
+      background-color: #c7dcba;
+      padding: 20px;
+      text-align: center;
+      border-radius: 25px;
+      margin: 1.5em 1.5em 1.5em 1.5em;
+  }
+  
+  #first-list{
+    list-style-image: linear-gradient(to left bottom, red, blue);
+  
+      
+  }
+  
+  #second-list dt{
+      color: rgb(12, 34, 233);
+      font-weight: bold;
+      float:left;
+  }
+  
+  #second-list dd{
+      text-align: left;
+      margin: 0 0 0 6em;
+      padding: 0 0 0.5em 0;
+  }
+  
+  
+  
+  /* Second Section End */
+  
+  /* Image Section Start */
+  
+  #AmsterdamImage{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid red;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #figcaption{
+      text-align: center;
+      text-decoration: line-upper;
+  }
+  
+  /* Image Section End */
+  
+  /* Product Section Start */
+  
+  .product-table{
+      border-collapse: collapse;
+      margin: center;
+      font-size: 10em;
+      text-align: center;
+      box-sizing: border-box;
+      font: 1em helvatica;
+  }
+  
+  .product-table table{
+      caption-side: bottom;
+      overflow-x: auto;
+      overflow-y: auto;
+      padding-left: 10%;
+      padding-right:10%;
+      width: 100%;
+  }
+  
+  .product-table caption{
+      
+      color:#cb6651;
+      background-color:#c7dcba ;
+      border-collapse: collapse;
+      padding-left:10%;
+      padding-right:10%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: normal;
+      font-style: italic;
+      padding: 2em;
+  }
+  .product-table thead tr{
+      background-color: #f3e8ca ;
+      color: white;
+      font-weight: bold-italic;
+  }
+  
+  .product-table th,
+  .product-table td,
+  .product-table tr{
+      position: relative;
+      padding: 0.5em 0.5em;
+  }
+  
+  .product-table .os{
+      font-weight: italic;
+  }
+  
+  .product-table .brand{
+      font-style: italic;
+  }
+  
+  .product-table th{
+      text-transform: uppercase;
+  }
+  
+  .product-table tbody tr{
+      border-bottom: 1px solid #f3e8ca;
+  }
+  
+  .product-table tbody tr:nth-of-type(even) {
+      background-color: #f3e8ca;
+  }
+  
+  .product-table tbody tr:nth-of-type(odd) {
+      background-color: #f9f9fa
+  }
+  
+  .product-table tbody tr:last-of-type {
+      border-bottom: 0.1em solid #009879;
+  }
+  
+  .product-table tbody tr:hover {
+      font-weight: bold;
+      color: #009879;
+  }
+  
+  .form-class{
+      color:#443d48;
+      font-size:1.5em;
+      font-family: "helvatica";
+      background-color: #e15631;
+      display: flex;
+      padding: 10px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: baseline;
+      border-radius: 25px;
+      margin: 2em 2em 2em 2em;
+  }
+  
+  .input-class{
+      padding: 0.5em 0.5em 0.5em 0.5em;
+      margin: 1em 1em 1em 1em;
+      border-spacing: 5px;
+  }
+  
+  .button-class{
+      background-color: #d0d8e2;
+      padding: 10px;
+      text-align: center;
+      border-radius: 25px;
+      margin: 1em 1em 1em 1em;
+  }
+  
+  /* Product Section End */
+  
+  /* Contact Section Start */
+  
+  #contact-list{
+      color:#443d48;
+      text-align: center;
+      width: 50%;
+      background-color: #f69d3c;
+      border-radius: 25%;
+      padding: 15px;
+      margin: auto;
+      list-style: disc outside;
+  }
+  #thirdlist{
+    color:#443d48;
+    font-family: "helvatica";
+    font-size: 30px;
+  }
+  /* Contact Section End */
+  
+  /* Media Section Start */
+  
+  @media screen and (max-width: 600px) {
+  
+    .product-table caption {
+      font-size: 1em;
+    }
+  
+   
+    .product-table thead {
+      display: none;
+    }
+    
+    .table tr {
+      display: block;
+      margin-bottom: 100em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #57576f;
+      display: block;
+      font-size: .8em;
+      text-align: center;
+    }
+  
+    .form-class{
+      flex-direction: column;
+      align-items: center;
+      margin: 1em 1em 1em 1em;
+      padding: 1em;
+    }
+  
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  
+  }
+  
+  @media print{
+      #secondsection, #figcaption {
+          page-break-before: always;
+      }
+  
+      .product-table{
+          page-break-inside: avoid;
+          page-break-after: always;
+      }
+  
+      p {
+      orphans: 3;
+      widows: 3;
+      }
+  
+  }
+  
+  /* Media Section End */
+  /* ALL CSS PARTS END */
+  
